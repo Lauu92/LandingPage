@@ -62,7 +62,17 @@ header li:hover {
 }
 
 .fotoPresentacion {
-    height: 400px;
+    height: 200px;
+}
+
+.iconos {
+    display: block;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.sql{
+    width: 6rem;
 }
 
 
