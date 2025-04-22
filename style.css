@@ -18,24 +18,25 @@ body {
     background-attachment: fixed;
 }
 
+
 ul {
     text-align: right;
     list-style: none;
     font-size: 0px;
     
 }
-header {
-    margin-right: 1rem;
+.navbar {
+    margin: 1rem;
 }
+
 
 header a{
     text-decoration: none;
     color: white;
     font-size: 30px;
-    
 }
 
-header li {
+.navbar li {
     display: inline-block;
     border: 3px solid white;
     border-radius: 15px;
@@ -43,22 +44,26 @@ header li {
     height: 4rem;
     padding-top: 0.75rem;
     text-align: center;
-    margin: 0.5rem;
+    margin-right: 1rem;
 
 }
 
-header li:hover {
+.navbar li:hover {
     background: #8866a8;
     color: white;
     transition-duration: 1s;
 }
+
+.nombre {
+    margin: 3rem;
+}
+
 .presentacion {
     color: white;
     font-size: 45px;
     text-align: center;
-    display: inline-block;
+    display: block;
     margin-top: 10rem;
-    margin-left: 25%;
 }
 
 .fotoPresentacion {
@@ -75,22 +80,21 @@ header li:hover {
     width: 6rem;
 }
 
+.boton {
+    text-align: center;
+}
+
 .botonSobreMi {
     cursor: pointer;
     color: #8866a8;
     background: white;
     border: 3px solid #8866a8;
     border-radius: 15px;
+    padding: 1rem;
     font-size: 35px;
     margin-top: 5rem;
-    text-align: center;
-    
 }
 
-.copyright {
-    text-align: center;
-    margin-top: 10rem;
-}
 
 .botonSobreMi:hover {
     background: #8866a8;
@@ -127,4 +131,7 @@ header li:hover {
     cursor: pointer;
 }
 
-
+.copyright {
+    text-align: center;
+    margin-top: 10rem;
+}
