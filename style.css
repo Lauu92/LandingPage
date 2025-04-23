@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -23,14 +23,15 @@ ul {
     text-align: right;
     list-style: none;
     font-size: 0px;
-    
+
 }
+
 .navbar {
     margin: 1rem;
 }
 
 
-header a{
+header a {
     text-decoration: none;
     color: white;
     font-size: 30px;
@@ -84,7 +85,7 @@ header a{
     margin-top: 5rem;
 }
 
-.sql{
+.sql {
     width: 6rem;
 }
 
@@ -121,8 +122,10 @@ header a{
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center; /* para alinear a la derecha */
-    gap: 1rem; /* espacio entre íconos */
+    justify-content: center;
+    /* para alinear a la derecha */
+    gap: 1rem;
+    /* espacio entre íconos */
 }
 
 .redesSociales li {
@@ -130,12 +133,14 @@ header a{
 }
 
 .redesSociales img {
-    width: 40px; 
+    width: 40px;
 }
 
 .redesSociales img:hover {
-    transform: scale(1.2); /* agranda el ícono */
-    filter: brightness(1.2); /* lo hace un poco más brillante */
+    transform: scale(1.2);
+    /* agranda el ícono */
+    filter: brightness(1.2);
+    /* lo hace un poco más brillante */
     cursor: pointer;
 }
 
@@ -170,7 +175,7 @@ header a{
     border-radius: 10px;
     overflow: hidden;
     transition: 0.5s;
-    
+
 }
 
 .card .front {
@@ -196,7 +201,7 @@ header a{
     text-align: center;
 }
 
-.card .back{
+.card .back {
     transform: perspective(600px) rotateY(180deg);
     background-color: black;
     box-shadow: 0px 5px 10px black;
@@ -208,18 +213,18 @@ header a{
     box-shadow: 0px 5px 10px black;
 }
 
-.card .back .link{
+.card .back .link {
     border-top: 1px solid white;
     height: 50px;
     line-height: 50px;
     margin-bottom: 50px;
 }
 
-.card .back .link a{
-   color: white;
+.card .back .link a {
+    color: white;
 }
 
-.card .back h3{
+.card .back h3 {
     font-size: 30px;
     margin-top: 20px;
     margin-bottom: 200px;
@@ -230,10 +235,51 @@ header a{
     letter-spacing: 1px;
 }
 
-.card:hover .front{
+.card:hover .front {
     transform: perspective(600px) rotateY(180deg);
 }
 
-.card:hover .back{
+.card:hover .back {
     transform: perspective(600px) rotateY(360deg);
+}
+
+/*contacto.html*/
+form {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: auto;
+    font-size: 30px;
+}
+
+label {
+    display: flex;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 18px;
+    font-size: 20px;
+}
+
+button {
+    margin-top: 1.5rem;
+    background-color: #5aa1ed;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: purple;
+    transition: 1s;
 }
