@@ -65,7 +65,7 @@ header a {
 
 .presentacion {
     color: white;
-    font-size: 30px;
+    font-size: 40px;
     text-align: left;
     display: block;
     margin-top: 10rem;
@@ -73,7 +73,7 @@ header a {
 }
 
 .presentacion > p {
-    font-size: 20px;
+    font-size: 30px;
     color:#02ac99;
 }
 
