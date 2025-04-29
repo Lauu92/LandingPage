@@ -2,16 +2,17 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "Atkinson";
+    font-family: "Roboto";
+    color: #8693b2;
 }
 
 @font-face {
-    font-family: "Atkinson";
-    src: url(font/AtkinsonHyperlegibleMono-ExtraBoldItalic.ttf);
+    font-family: "Roboto";
+    src: url(font/RobotoFlex-VariableFont_GRAD\,XOPQ\,XTRA\,YOPQ\,YTAS\,YTDE\,YTFI\,YTLC\,YTUC\,opsz\,slnt\,wdth\,wght.ttf);
 }
 
 body {
-    background-image: url(img/indexFondo.png);
+    background-color: #061930;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -21,8 +22,8 @@ body {
 
 ul {
     text-align: right;
-    list-style: none;
-    font-size: 0px;
+    list-style:none;
+    /*font-size: 10px;*/
 
 }
 
@@ -30,29 +31,32 @@ ul {
     margin: 1rem;
 }
 
+.navbar> li > a {
+    color: #8693b2;
+    font-size: 25px;
+}
+
 
 header a {
     text-decoration: none;
     color: white;
-    font-size: 30px;
 }
 
 .navbar li {
+    color: #02ac99;
     display: inline-block;
-    border: 3px solid white;
     border-radius: 15px;
-    width: 200px;
+    width: 130px;
     height: 4rem;
     padding-top: 0.75rem;
     text-align: center;
-    margin-right: 1rem;
+    margin-right: 0.25rem;
 
 }
 
-.navbar li:hover {
-    background: #8866a8;
-    color: white;
-    transition-duration: 1s;
+.navbar li a:hover {
+    color: #02ac99;
+
 }
 
 .nombre {
@@ -61,23 +65,26 @@ header a {
 
 .presentacion {
     color: white;
-    font-size: 45px;
-    text-align: center;
+    font-size: 30px;
+    text-align: left;
     display: block;
     margin-top: 10rem;
+    margin-left: 28rem;
+}
+
+.presentacion > p {
+    font-size: 20px;
+    color:#02ac99;
 }
 
 .presentacion2 {
-    color: white;
+    color: #8693b2;
     font-size: 70px;
     text-align: center;
     display: block;
     margin-top: 5rem;
 }
 
-.fotoPresentacion {
-    height: 200px;
-}
 
 .iconos {
     display: block;
@@ -95,9 +102,8 @@ header a {
 
 .botonSobreMi {
     cursor: pointer;
-    color: #8866a8;
-    background: white;
-    border: 3px solid #8866a8;
+    color: #02ac99;
+    border: 3px solid #02ac99;
     border-radius: 15px;
     padding: 1rem;
     font-size: 35px;
@@ -106,15 +112,14 @@ header a {
 
 
 .botonSobreMi:hover {
-    background: #8866a8;
-    color: white;
+    background: #02ac9865;
     transition-duration: 1s;
 }
 
 .redesSociales {
     text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
 }
 
 .redesSociales ul {
@@ -130,10 +135,13 @@ header a {
 
 .redesSociales li {
     display: inline-block;
+    margin-top: 3rem;
 }
 
 .redesSociales img {
     width: 40px;
+    background-color: #02ac99;
+    border-radius: 13px;
 }
 
 .redesSociales img:hover {
@@ -146,7 +154,9 @@ header a {
 
 .copyright {
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+    color: #02ac99;
 }
 
 /*Proyectos.html*/
@@ -196,7 +206,7 @@ header a {
     width: 100%;
     height: 45px;
     line-height: 45px;
-    color: aliceblue;
+    color: #02ac99;
     background-color: black;
     text-align: center;
 }
@@ -206,7 +216,7 @@ header a {
     background-color: black;
     box-shadow: 0px 5px 10px black;
     padding: 15px;
-    color: aliceblue;
+    color: #02ac99;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
@@ -245,16 +255,18 @@ header a {
 
 /*contacto.html*/
 form {
-    background: #fff;
+    background: #8693b2;
+    color: #02ac99;
     padding: 1.5rem;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 50%;
+    width: 40%;
     margin: auto;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 label {
+    color: white;
     display: flex;
     margin-top: 1rem;
     font-weight: bold;
@@ -271,7 +283,7 @@ input, textarea {
 
 button {
     margin-top: 1.5rem;
-    background-color: #5aa1ed;
+    background-color: #02ac99;
     color: white;
     padding: 0.6rem 1.2rem;
     border: none;
@@ -280,6 +292,32 @@ button {
 }
 
 button:hover {
-    background-color: purple;
-    transition: 1s;
+    transform: scale(1.2);
+    /* agranda el ícono */
+    cursor: pointer;
+}
+
+/*CV*/
+.estudios{
+    color: white;
+    margin-top: 5rem;
+    display: flex;
+    border: solid 1px black;
+}
+
+.estudios > h1 {
+    flex:1;
+    margin-left: 10rem;
+    padding-top: 3rem;
+}
+
+.estudios > ul {
+    flex:3;
+    margin-right: 10rem;
+}
+
+.estudios > ul > li{
+    color: white;
+    list-style: none;
+    font-size: 20px;
 }
