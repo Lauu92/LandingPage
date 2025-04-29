@@ -96,24 +96,25 @@ header a {
     width: 6rem;
 }
 
-.boton {
-    text-align: center;
+.boton{
+   font-size: 30px;
+   text-align: center;
 }
 
 .botonSobreMi {
     cursor: pointer;
     color: #02ac99;
+    background-color: #061930;
     border: 3px solid #02ac99;
-    border-radius: 15px;
     padding: 1rem;
-    font-size: 35px;
-    margin-top: 5rem;
+    font-size: 40px;
+    margin-top: 10rem;
 }
 
 
 .botonSobreMi:hover {
     background: #02ac9865;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 .redesSociales {
