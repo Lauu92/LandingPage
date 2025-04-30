@@ -29,6 +29,10 @@ ul {
 
 .navbar {
     margin: 1rem;
+    height: 10vh;
+    width: 100%;
+    justify-content: space-around;
+
 }
 
 .navbar> li > a {
@@ -129,9 +133,7 @@ header a {
     margin: 0;
     display: flex;
     justify-content: center;
-    /* para alinear a la derecha */
-    gap: 1rem;
-    /* espacio entre íconos */
+    gap: 1rem;          /* espacio entre íconos */
 }
 
 .redesSociales li {
@@ -146,10 +148,8 @@ header a {
 }
 
 .redesSociales img:hover {
-    transform: scale(1.2);
-    /* agranda el ícono */
-    filter: brightness(1.2);
-    /* lo hace un poco más brillante */
+    transform: scale(1.2);      /* agranda el ícono */
+    filter: brightness(1.2);    /* le da efecto brillante */
     cursor: pointer;
 }
 
@@ -293,8 +293,7 @@ button {
 }
 
 button:hover {
-    transform: scale(1.2);
-    /* agranda el ícono */
+    transform: scale(1.2);      /* agranda el ícono */
     cursor: pointer;
 }
 
@@ -339,9 +338,9 @@ button:hover {
     font-size: 20px;
     gap: 2rem;
     max-width: 1000px;
-    margin: 5rem auto; /* Centrado horizontal */
+    margin: 5rem auto;      /* Centrado horizontal */
     padding: 2rem;
-    justify-content: center; /* Opcional: centra contenido dentro */
+    justify-content: center; /* Centra contenido dentro */
 }
 
 .quien1{
@@ -357,6 +356,6 @@ button:hover {
     width: 100%;
     height: auto;
     padding: 2rem;
-    border-radius: 10px; /* Opcional, para bordes redondeados */
+    border-radius: 10px; 
     object-fit: cover;
 }
