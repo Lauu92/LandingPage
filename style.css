@@ -359,3 +359,130 @@ button:hover {
     border-radius: 10px; 
     object-fit: cover;
 }
+
+/********************************/
+/*Responsive*/
+
+/*Hasta 992px*/
+@media (max-width: 992px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .navbar li {
+        width: 100px;
+        font-size: 20px;
+    }
+
+    .presentacion {
+        font-size: 30px;
+        margin: 5rem 2rem 2rem 2rem;
+        text-align: center;
+    }
+
+    .presentacion > p {
+        font-size: 24px;
+    }
+
+    .presentacion2 {
+        font-size: 50px;
+    }
+
+    .botonSobreMi {
+        font-size: 30px;
+        padding: 0.75rem;
+    }
+
+    .card {
+        width: 90%;
+        height: auto;
+    }
+
+    form {
+        width: 60%;
+    }
+
+    .quienSoy {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .quien1, .quien2 {
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .cv {
+        margin-left: 2rem;
+    }
+}
+
+/*Hasta 576px*/
+@media (max-width: 576px) {
+    .navbar li {
+        display: block;
+        margin: 0.5rem auto;
+        width: 90%;
+    }
+
+    .presentacion {
+        font-size: 24px;
+        margin: 2rem 1rem;
+    }
+
+    .presentacion > p {
+        font-size: 18px;
+    }
+
+    .presentacion2 {
+        font-size: 36px;
+    }
+
+    .iconos {
+        margin-top: 2rem;
+    }
+
+    .botonSobreMi {
+        font-size: 24px;
+        padding: 0.5rem;
+        margin-top: 3rem;
+    }
+
+    .card {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    .estudios {
+        flex-direction: column;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .estudios > ul {
+        margin: 0;
+    }
+
+    .quien1, .quien2 {
+        padding: 1rem;
+    }
+
+    .quien2 {
+        max-width: 100%;
+    }
+
+    .cv {
+        margin-left: 1rem;
+    }
+
+    .redesSociales img {
+        width: 32px;
+    }
+}
