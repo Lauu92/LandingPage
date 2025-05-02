@@ -22,7 +22,7 @@ body {
 
 ul {
     text-align: right;
-    list-style:none;
+    list-style: none;
     /*font-size: 10px;*/
 
 }
@@ -35,7 +35,7 @@ ul {
 
 }
 
-.navbar> li > a {
+.navbar>li>a {
     color: #8693b2;
     font-size: 25px;
 }
@@ -76,9 +76,9 @@ header a {
     margin-left: 28rem;
 }
 
-.presentacion > p {
+.presentacion>p {
     font-size: 30px;
-    color:#02ac99;
+    color: #02ac99;
 }
 
 .presentacion2 {
@@ -100,9 +100,9 @@ header a {
     width: 6rem;
 }
 
-.boton{
-   font-size: 30px;
-   text-align: center;
+.boton {
+    font-size: 30px;
+    text-align: center;
 }
 
 .botonSobreMi {
@@ -113,6 +113,13 @@ header a {
     padding: 1rem;
     font-size: 40px;
     margin-top: 10rem;
+    display: block;
+    margin: 10rem auto 0 auto;
+    /* top auto bottom auto */
+    text-align: center;
+    width: fit-content;
+    border-radius: 10px;
+    text-decoration: none;
 }
 
 
@@ -133,7 +140,8 @@ header a {
     margin: 0;
     display: flex;
     justify-content: center;
-    gap: 1rem;          /* espacio entre íconos */
+    gap: 1rem;
+    /* espacio entre íconos */
 }
 
 .redesSociales li {
@@ -148,8 +156,10 @@ header a {
 }
 
 .redesSociales img:hover {
-    transform: scale(1.2);      /* agranda el ícono */
-    filter: brightness(1.2);    /* le da efecto brillante */
+    transform: scale(1.2);
+    /* agranda el ícono */
+    filter: brightness(1.2);
+    /* le da efecto brillante */
     cursor: pointer;
 }
 
@@ -273,7 +283,8 @@ label {
     font-weight: bold;
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     padding: 1rem;
     margin-top: 0.3rem;
@@ -293,71 +304,88 @@ button {
 }
 
 button:hover {
-    transform: scale(1.2);      /* agranda el ícono */
+    transform: scale(1.2);
+    /* agranda el ícono */
     cursor: pointer;
 }
 
 /*CV*/
-.estudios{
+.estudios {
     color: white;
     display: flex;
     border: solid 1px #02ac99;
     margin: 2rem;
 }
 
-.estudios >h1 {
+.estudios>h1 {
     color: #02ac99;
-    flex:1;
+    flex: 1;
     margin-left: 2rem;
     border: none;
 }
 
-.estudios > ul {
-    flex:3;
+.estudios>ul {
+    flex: 3;
     margin-right: 10rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
 
-.estudios > ul > li{
+.estudios>ul>li {
     color: white;
     list-style: none;
     font-size: 20px;
     margin: 0.2rem;
 }
 
-.cv{
+.cv {
     margin-left: 10rem;
 }
 
 /*Quién soy*/
-.quienSoy{
+.quienSoy {
     display: flex;
     flex-wrap: wrap;
     color: white;
     font-size: 20px;
     gap: 2rem;
     max-width: 1000px;
-    margin: 5rem auto;      /* Centrado horizontal */
+    margin: 5rem auto;
+    /* Centrado horizontal */
     padding: 2rem;
-    justify-content: center; /* Centra contenido dentro */
+    justify-content: center;
+    /* Centra contenido dentro */
 }
 
-.quien1{
+.quien1 {
     flex: 2;
     color: white;
     text-align: justify;
     padding: 2rem;
 }
 
-.quien2{
+.quien2 {
     flex: 1;
-    max-width: 300px; /* Límite de tamaño de la imagen */
+    max-width: 300px;
+    /* Límite de tamaño de la imagen */
     width: 100%;
     height: auto;
     padding: 2rem;
-    border-radius: 10px; 
+    border-radius: 10px;
     object-fit: cover;
+}
+
+.masSobreMi>h1 {
+    color: #02ac99;
+    margin-left: 5rem;
+    padding-top: 1rem;
+    font-size: 70px;
+}
+
+.masSobreMi>p {
+    margin-left: 5rem;
+    font-size: 35px;
+    margin-bottom: 10rem;
 }
 
 /********************************/
@@ -382,7 +410,7 @@ button:hover {
         text-align: center;
     }
 
-    .presentacion > p {
+    .presentacion>p {
         font-size: 24px;
     }
 
@@ -409,7 +437,8 @@ button:hover {
         padding: 1rem;
     }
 
-    .quien1, .quien2 {
+    .quien1,
+    .quien2 {
         width: 100%;
         padding: 1rem;
         text-align: center;
@@ -433,7 +462,7 @@ button:hover {
         margin: 2rem 1rem;
     }
 
-    .presentacion > p {
+    .presentacion>p {
         font-size: 18px;
     }
 
@@ -466,11 +495,12 @@ button:hover {
         padding: 1rem;
     }
 
-    .estudios > ul {
+    .estudios>ul {
         margin: 0;
     }
 
-    .quien1, .quien2 {
+    .quien1,
+    .quien2 {
         padding: 1rem;
     }
 
